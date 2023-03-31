@@ -36,6 +36,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 Create two virtual machines on Microsoft Azure: one running Windows 10 (Client-1) and one running Windows Server (Domain Controller or DC). Ensure that they have the same region, virtual machine size, and virtual network (vnet) to communicate and drive traffic. 
 </p>
+<p>
+Change the Domain Controller's (DC) Network Interface Card (NIC) to a static IP address to prevent IP address changes when connected devices are identified. To do this, access Networking on the DC's virtual machine in Microsoft Azure, click on the virtual NIC, edit IP configurations, change the assignment to "Static," and click on Save.
+</p>
 <br />
 
 <h2>Ensure Connectivity between the Client 1 and Domain Controller</h2>
