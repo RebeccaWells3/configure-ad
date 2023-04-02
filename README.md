@@ -46,7 +46,7 @@ Change the Domain Controller's (DC) Network Interface Card (NIC) to a static IP 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, enable the ICMP4 protocol "Echo Request" on DC remote desktop. Next, login to Client-1 and initiate a perpetual ping to DC's private IP address ro test connectivity.
+First, enable the ICMP4 protocol "Echo Request" on DC remote desktop. Next, login to Client-1 and initiate a perpetual ping to DC's private IP address to test connectivity.
 </p>
 <br />
 
